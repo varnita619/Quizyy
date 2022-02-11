@@ -13,12 +13,14 @@
     align-items: center;
     margin-top: 4rem;
     padding: 2rem;
-    background-color: var(--secondary-color);
+    background-color: var(--subheading-color);
     border: 1px solid var(--hr-color);
+    color: var(--white);
 }
 
 .rules{
     line-height: 2rem;
+    margin-top: 1.5rem;
 }
 
 .rules > p > i{
@@ -26,10 +28,12 @@
 }
 
 .primary-button{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .rules-btn{
-    color: var(--white);
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--black);
     text-decoration: none;
 }
