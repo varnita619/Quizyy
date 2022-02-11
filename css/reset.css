@@ -18,6 +18,19 @@ body{
     letter-spacing: 0.05rem;
 }
 
+.heading-container{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.heading{
+    color: var(--white);
+}
+
 /* footer */
 
 .footer{
