@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizyy | Sign-up</title>
+    <!-- Pallet UI Link -->
+    <link
+      rel="stylesheet"
+      href="https://pallet-ui.netlify.app/css/component.css"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/home-page.css">
+  </head>
+
+  <body>
+    <header class="nav-bar">
+      <div class="nav-bar_row">
+        <div class="nav-bar_section--align-start">
+          <button class="nav-bar_action-item">
+          <span class="nav-bar_heading">Quizyy</span>
+        </div>
+
+        <div class="nav-bar_section--align-end">
+          <button class="login-btn"><a class="anchor-btn" href="/login.html">Login</a></button>
+          
+        </div>
+      </div>
+    </header>
+
+    <!-- Login start -->
+    <main class="main-container">
+        <div class="container">
+          <h1>Sign-up</h1>
+          <hr />
+  
+          <label for="email"><b>Email address</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+  
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="*******"
+            name="psw"
+            required
+          />
+  
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              class="checkbox"
+            />
+            I accept all terms and conditions
+          </label>
+          
+          <p>
+            By creating an account you agree to our
+            <a href="#" class="terms-condition">Terms & Privacy</a>.
+          </p>
+  
+          <div class="clearfix">
+            <button type="submit" class="btn"><a class="anchor-btn" href="/index.html">
+              Sign Up</a></button>
+          </div>
+  
+          <div class="have-account">
+            <a href="/login.html">Already have an account ></a>
+          </div>
+        </div>
+    </main>
+    
+
+  </body>
+</html>
