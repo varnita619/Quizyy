@@ -79,7 +79,9 @@ hr {
 }
 
 .forgot-password{
-    margin-left: 3rem;
+    margin-left: 12rem;
+    color: var(--white);
+    text-decoration: none;
 }
 
 .checkbox {
